@@ -16,6 +16,10 @@ body {
   overflow: hidden;
 }
 
+h1 {
+  padding: 0 20px;
+}
+
 .center {
   margin: auto;
   text-align: center;
@@ -27,6 +31,7 @@ body {
 }
 
 #underConstructionImg {
+  width: 66vw;
   margin: 40px;
   border-radius: 20px;
 }

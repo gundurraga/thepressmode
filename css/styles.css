@@ -32,7 +32,6 @@ header {
   border-bottom: 3px solid #1a2a33;
   box-sizing: border-box;
   height: 100px;
-  margin: -1px;
   width: 100%;
 }
 
@@ -49,7 +48,6 @@ footer {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  margin: -1px;
   min-height: 100px;
   position: relative;
   width: 100%;

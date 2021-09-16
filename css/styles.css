@@ -23,6 +23,7 @@ body {
   margin: 20px;
   margin-bottom: 5px;
   min-width: calc(100% - 40px);
+  padding: 0;
   position: relative;
 }
 
@@ -74,6 +75,7 @@ footer {
   justify-content: space-evenly;
   margin: auto;
   min-height: auto;
+  padding: 20px 0;
   text-align: center;
   width: 100%;
 }
@@ -95,7 +97,7 @@ footer {
 }
 
 .tshirtGif .gif {
-  left: 133px;
+  left: 128px;
   position: absolute;
   top: 85px;
   width: 100px;

@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  background: #99ecec;
+  background: rgb(202, 202, 105);
   color: #ed6df8;
   font-family: "Roboto", Helvetica, sans-serif;
   display: flex;
@@ -20,8 +20,10 @@ body {
   position: relative;
   border: 3px solid #1a2a33;
   margin: 20px;
+  margin-bottom: 5px;
   height: auto;
   min-width: calc(100% - 40px);
+  background-color: rgb(236, 230, 230);
 }
 
 header {
@@ -29,6 +31,7 @@ header {
   border-bottom: 3px solid #1a2a33;
   height: 100px;
   width: 100%;
+  background-color: rgb(28, 153, 202);
 }
 
 .title {
@@ -47,11 +50,13 @@ footer {
   box-sizing: border-box;
   min-height: 100px;
   width: 100%;
+  background-color: rgb(207 93 145);
 }
 
 .instagram {
   width: 97px;
   border-right: 3px solid #1a2a33;
+  background-color: white;
 }
 
 .instagram img {
@@ -73,7 +78,7 @@ footer {
 }
 
 .tshirtGif {
-  padding: 20px;
+  padding: 30px;
   width: 300px;
   position: relative;
   top: 0;
@@ -90,10 +95,9 @@ footer {
 
 .tshirtGif .gif {
   position: absolute;
-  top: 60px;
-  left: 100px;
+  top: 85px;
+  left: 133px;
   width: 100px;
-  padding: 20px;
 }
 
 #tshirt2 {

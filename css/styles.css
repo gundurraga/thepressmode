@@ -33,7 +33,7 @@ header {
   border-bottom: 3px solid #1a2a33;
   box-sizing: border-box;
   height: 100px;
-  margin: 0;
+  margin: -1px;
   width: 100%;
 }
 

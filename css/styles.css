@@ -100,16 +100,16 @@ footer {
   width: 100px;
 }
 
-#tshirt2 {
+#tshirt1 {
   filter: hue-rotate(72deg);
 }
-#tshirt3 {
+#tshirt2 {
   filter: hue-rotate(144deg);
 }
-#tshirt4 {
+#tshirt3 {
   filter: hue-rotate(216deg);
 }
-#tshirt5 {
+#tshirt4 {
   filter: hue-rotate(288deg);
 }
 

@@ -11,6 +11,7 @@ body {
 
 body {
   background: rgb(202, 202, 105);
+  box-sizing: border-box;
   color: #ed6df8;
   display: flex;
   flex-direction: column;
@@ -30,7 +31,6 @@ body {
 header {
   background-color: rgb(28, 153, 202);
   border-bottom: 3px solid #1a2a33;
-  box-sizing: border-box;
   height: 100px;
   width: 100%;
 }
@@ -45,7 +45,6 @@ header {
 footer {
   background-color: rgb(207 93 145);
   border-top: 3px solid #1a2a33;
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   min-height: 100px;

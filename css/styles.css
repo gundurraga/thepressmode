@@ -11,27 +11,28 @@ body {
 body {
   background: rgb(202, 202, 105);
   color: #ed6df8;
-  font-family: "Roboto", Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .container {
-  position: relative;
+  background-color: rgb(236, 230, 230);
   border: 3px solid #1a2a33;
+  height: auto;
   margin: 20px;
   margin-bottom: 5px;
-  height: auto;
   min-width: calc(100% - 40px);
-  background-color: rgb(236, 230, 230);
+  position: relative;
 }
 
 header {
-  box-sizing: border-box;
-  border-bottom: 3px solid #1a2a33;
-  height: 100px;
-  width: 100%;
   background-color: rgb(28, 153, 202);
+  border-bottom: 3px solid #1a2a33;
+  box-sizing: border-box;
+  height: 100px;
+  margin: 0;
+  width: 100%;
 }
 
 .title {
@@ -42,61 +43,61 @@ header {
 }
 
 footer {
+  background-color: rgb(207 93 145);
+  border-top: 3px solid #1a2a33;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  position: relative;
-  border-top: 3px solid #1a2a33;
-  box-sizing: border-box;
+  margin: 0;
   min-height: 100px;
+  position: relative;
   width: 100%;
-  background-color: rgb(207 93 145);
 }
 
 .instagram {
-  width: 97px;
-  border-right: 3px solid #1a2a33;
   background-color: white;
+  border-right: 3px solid #1a2a33;
+  width: 97px;
 }
 
 .instagram img {
-  padding: 10px 9px;
   height: 80px;
+  padding: 10px 9px;
 }
 
 .body {
-  display: flex;
-  width: 100%;
-  height: fit-content;
-  margin: auto;
-  text-align: center;
-  min-height: auto;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  height: fit-content;
+  justify-content: space-evenly;
+  margin: auto;
+  min-height: auto;
+  text-align: center;
+  width: 100%;
 }
 
 .tshirtGif {
-  padding: 30px;
-  width: 300px;
-  position: relative;
-  top: 0;
   left: 0;
   margin: auto;
+  padding: 30px;
+  position: relative;
+  top: 0;
+  width: 300px;
 }
 
 .tshirt {
+  left: 0;
   position: relative;
   top: 0;
-  left: 0;
   width: 300px;
 }
 
 .tshirtGif .gif {
+  left: 133px;
   position: absolute;
   top: 85px;
-  left: 133px;
   width: 100px;
 }
 
@@ -115,14 +116,14 @@ footer {
 
 @media screen and (max-width: 550px) {
   .title {
-    height: 40px;
-    padding: 30px 0;
+    height: 46px;
+    padding: 27px 0;
   }
 }
 
 @media screen and (max-width: 450px) {
   .title {
-    height: 32px;
-    padding: 34px 0;
+    height: 38px;
+    padding: 31px 0;
   }
 }

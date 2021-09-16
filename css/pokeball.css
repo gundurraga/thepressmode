@@ -18,11 +18,12 @@
   }
 }
 
-#loading {
+#pokeballs {
+  padding-top: 1px;
   height: 48px;
   width: 264px;
   position: relative;
-  margin: auto;
+  margin: 24px auto;
 }
 
 .pokeball {
@@ -200,4 +201,24 @@
     20px 40px 0 #a5a5a5, 24px 40px 0 #a5a5a5, 28px 40px 0 #a5a5a5,
     32px 40px 0 #000, 36px 40px 0 #000, 16px 44px 0 #000, 20px 44px 0 #000,
     24px 44px 0 #000, 28px 44px 0 #000;
+}
+
+@media screen and (max-width: 450px) {
+  #pokeballs {
+    width: calc(264px - 53px);
+  }
+  .pokeball#safari {
+    margin: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #pokeballs {
+    width: calc(264px - 106px);
+  }
+  .pokeball#master {
+    margin: 0;
+    visibility: hidden;
+  }
 }

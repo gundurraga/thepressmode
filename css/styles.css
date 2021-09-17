@@ -22,7 +22,6 @@ body {
 .container {
   background-color: rgb(236, 230, 230);
   background-image: url("../images/fabric-texture.png");
-
   border: 3px solid #1a2a33;
   height: auto;
   margin: 20px;
